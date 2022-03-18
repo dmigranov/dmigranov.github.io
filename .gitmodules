@@ -1,0 +1,3 @@
+[submodule "friedmann-web"]
+	path = friedmann-web
+	url = https://github.com/dmigranov/friedmann-web.git
