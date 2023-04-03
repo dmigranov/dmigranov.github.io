@@ -8,12 +8,28 @@
     <link rel="icon" href="./friedmann-web/pics/favicon.ico" type="image/x-icon">
 
     <style>
+
         h2 {
-            text-align: center; color: black
+            text-align: center; color: rgb(255, 255, 255); font: georgia,sans-serif
+        }
+
+        body {
+            background-color: rgb(7, 3, 80)
+        }
+
+        .block {
+            background-color: rgb(47, 43, 130); font: 24pt georgia,sans-serif;
+            text-align: center; 
+        }
+
+        .block_text {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         .navigation_bar { 
-            background-color: black; height: 30px; border-bottom: solid 1px white; 
+            background-color: rgb(7, 3, 80); height: 30px; border-bottom: solid 1px white; 
         }
 
         .nav_inner { 
@@ -44,12 +60,27 @@
 
 <body>
     <div class="navigation_bar">
-        <div class="nav_inner"><a href="./index.html" class="nav_link">D. Migranov's homepage</div>
+        <div class="nav_inner">
+            <a href="./index.html" class="nav_link">D. Migranov's Homepage</a>       
+        </div>
     </div>
 
-    <div>
-        <h2>Denis Migranov's Homepage is Under Construction</h2>
+    <div class="block" style="margin-left:15%; width:40%; margin-top:20px; height:100px">
+        <div class="block_text">
+            <a href="./friedmann-web" class="block_link">Projects</a> 
+            <!--a href="./projects.html" class="block_link">Projects</a--> 
+        </div>
+        <!-- TODO: список ссылок сразу на страницы проектов - сразу важных -->
+        <!-- TODO: адаптивная вышина -->
     </div>
+
+    <div class="block" style="margin-left:15%; width:40%; margin-top:20px; height:100px">
+        <div class="block_text">
+            <a href="./about.html" class="block_link">About</a> 
+        </div>
+    </div>
+
+    <!-- TODO: справа или слева от списка - красивая неевклидова картинка-->>
 
 </body>
 
